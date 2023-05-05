@@ -74,7 +74,7 @@ public class Main {
          boolean found = false;
          while ((content = reader.readLine()) != null) {
              String[] fields = content.split("\n");
-             if (fields.length == 2 && fields[0].equals(userName) && fields[1].equals(pass)) {
+             if (fields[0].equals(pass)) {
                  found = true;
                  break;
              }
