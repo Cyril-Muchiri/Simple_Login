@@ -18,7 +18,7 @@ public class Main {
         switch (scanner.next()){
             case "s":
                 System.out.println("Proceeding to Signup page");
-                Thread.sleep(1500);
+                Thread.sleep(1300);
             signUp();return;
 
             case "l":System.out.println("Proceeding to Login page");
